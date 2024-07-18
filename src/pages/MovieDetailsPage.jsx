@@ -3,7 +3,7 @@ import { useParams, useNavigate, useLocation, Link, Outlet } from "react-router-
 import { useEffect, useState, useRef } from "react"
 import css from './MoviesDetailsPage.module.css'
 
-export default function MoviesDetailsPage() {
+export default function MovieDetailsPage() {
     const [movie, setMovie] = useState(null);   
     const { movieId } = useParams();
     const navigate = useNavigate();
